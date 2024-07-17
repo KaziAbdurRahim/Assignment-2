@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 .inter-font-style {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -7,25 +9,45 @@
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
+    color: white;
+
   }
+body{
+    background-color: #000000 ;
+}
 
 * {
     margin: 0;
 }
 /* default style */
 .container{
-    width: 90%;
+
+    width: 80%;
     margin: 5rem auto;
+  
+    align-items: center;
 
 }
 
+.Home{
+    background-color:  #E6533C ;
+    color: white;
+    border-radius:  1rem;
+    padding: .4rem .8rem;
+    border: none;
+
+}
 .btn-primarry{
     background-color:  #E6533C ;
     color: white;
     border-radius:  1rem;
     padding: .4rem .8rem;
     border: none;
+    height: 2rem;
+    
 }
+
+
 /* h3 {
     font-size: 36px;
     font-weight: 800;
@@ -46,7 +68,7 @@
 .menu-option{
     display: flex;
     gap: 3rem;
-    border: 1px solid black;
+    border: 1px solid #222222;
     border-radius: 2rem;
     justify-content: space-around;
     padding: .4rem;
@@ -54,3 +76,43 @@
 
 
 } 
+/* banner */
+.banner-container{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+
+}
+.banner{
+    border: 1px solid white;
+    width:50%;
+}
+.banner-title{
+    font-size: 4.87rem;
+  
+}
+.banner-description{
+    color: #222222;
+    margin: 1rem;
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-size: 4.75rem;
+}
+.banner-btn{
+    display: flex;
+   
+    gap: 4rem;
+    ma
+
+}
+
+
+#download-app{
+    background-color:  #000000;
+    border: 1px solid white;
+}
+
+
+
+
