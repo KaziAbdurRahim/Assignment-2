@@ -44,6 +44,8 @@ body{
     padding: .4rem .8rem;
     border: none;
     height: 2rem;
+    width: 10rem;
+   
     
 }
 
@@ -100,11 +102,9 @@ body{
     font-size: 4.75rem;
 }
 .banner-btn{
-    display: flex;
-   
+    display: flex;  
     gap: 4rem;
     
-
 }
 
 
@@ -123,10 +123,24 @@ body{
     display: flex;
 
 } */
-.bmi-calculator{
+.form{
     display: grid;
-   
+    grid-template-columns: 50% 50%;
+    border-radius: 8px;
+    /* gap:  .5rem; */
+    
+}
 
+.activity-factor{
+    display: grid;
+    grid-template-rows: 100%;
+}
+.options{
+    border-radius:8px ;
+    /* width: 50%; */
+
+    
+    
 }
 
 
