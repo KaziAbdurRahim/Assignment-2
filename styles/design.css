@@ -103,7 +103,7 @@ body{
     display: flex;
    
     gap: 4rem;
-    ma
+    
 
 }
 
@@ -113,6 +113,21 @@ body{
     border: 1px solid white;
 }
 
+.bmi-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+
+}
+/* .form{
+    display: flex;
+
+} */
+.bmi-calculator{
+    display: grid;
+   
+
+}
 
 
 
