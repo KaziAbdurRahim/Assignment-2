@@ -10,7 +10,7 @@
 </head>
 <body class="inter-font-style">
     <!-- <i class="fa-solid fa-bars"></i> -->
-    <header>
+    <header class="gradient-background">
         <nav class="container nav-bar">
             <div class="Title">
                 <h3><span class="fitness">Fitness</span></h3>
@@ -82,23 +82,7 @@
                     
 
                 </table>
-                <!-- <div class="chart">
-                    <div class="chart1">
-                        <p class="chart-item">BMI</p>
-                        <p class="chart-item">Below 18.5</p>
-                        <p class="chart-item">18.5 -24.9</p>
-                        <p class="chart-item">25.0- 29.9</p>
-                        <p class="chart-item-l">30.0 - and Above</p>
-                    </div>
-                    <div class="chart2">
-                        <p class="chart-item">Weight Status</p>
-                        <p class="chart-item">Underweight</p>
-                        <p class="chart-item">Healthy</p>
-                        <p class="chart-item">Overweight</p>
-                        <p class="chart-item-l">Obese</p>
-                    </div>
-                </div> -->
-                
+            
             </div>
             <div class="bmi-calculator">
                 <h3>Calculate your BMI</h3><br>
@@ -110,6 +94,7 @@
                 <div class="form">
                     <input class="options" type="text" placeholder="Age">
                     <select name="" id="" class="options">
+                        <option value="Sex" disabled selected>Select Gender</option>
                         <option value=""  >Male</option>
                         <option value="">Female</option>
 
@@ -119,12 +104,13 @@
                 </div>
                 <div class="activity-factor">
                     <select name="" id="" class="options" >
+                        <option value="Select an activity factor" disabled selected>Select Gender</option>
                         <option value="">Heavy work</option>
                         <option value="">Light work</option>
                     </select>
                 </div>
                 
-                <button class="btn-primarry">Calculate</button>
+                <button class="btn-primarry bmi-button">Calculate</button>
                 
             </div>
         </div>

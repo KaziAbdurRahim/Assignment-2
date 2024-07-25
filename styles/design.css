@@ -43,19 +43,23 @@ body{
     padding: .4rem .8rem;
     border: none;
     height: 2rem;
-    width: 10rem;
-    
-   
+    width: 10rem;  
     
 }
 
+p{
+    font-size: 1rem;
+    color: #5b5b5b;
+}
+/* header */
 
-/* h3 {
-    font-size: 36px;
-    font-weight: 800;
-
-} */
 /* nav bar */
+.gradient-background {
+    height: 100vh; 
+    background: linear-gradient(to bottom, #000000, #3b3a3a, hsl(0, 0%, 5%), black, black,black,black,black,black);
+    
+    background-size: 100% 300%; }
+
 .fitness{
     color: #E6533C;
     font-weight:800 ;
@@ -81,14 +85,14 @@ body{
 /* banner */
 .banner-container{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-between;
     /* box-shadow: #000000, #222222, white,white,white,white; */
    
 
 }
 .banner{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width:50%;
 }
 .banner-title{
@@ -96,7 +100,7 @@ body{
   
 }
 .banner-description{
-    color: #222222;
+    /* color: #222222; */
     margin: 1rem;
 }
 .shape{
@@ -141,9 +145,7 @@ body{
     backdrop-filter: blur(1000px);
 
 }
-/* .bmi-chart{
-    width: 80%; 
-} */
+
 .table{
         width: 30%; 
         border-collapse: collapse;
@@ -157,20 +159,16 @@ th,td {
     padding-left: .5rem;
     padding-right: 2px;
     text-align: left;
-    font-size: 8px;
+    font-size: 10px;
     /* width: .5rem 2rem; */
 
 }
-/* #lastdata{
-    padding-right: rem;
-} */
+
 th{
     padding: .5rem;
     font-size: 14px;
     font-weight: 400;
 }
-
-
 
 .form{
     display: grid;
@@ -185,10 +183,13 @@ th{
 }
 .options{
     border-radius:8px ;
-    /* width: 50%; */
-
-    
-    
+    backdrop-filter: blur(10px);
+    padding: .5rem;
+    margin: .2rem;  
+    border: none; 
+}
+.bmi-button{
+    margin-top: 1rem;
 }
 /* meet our team */
 .meet-our-team{
