@@ -51,6 +51,7 @@ p{
     font-size: 1rem;
     color: #5b5b5b;
 }
+
 /* header */
 
 /* nav bar */
@@ -133,7 +134,7 @@ p{
 }
 
 .bmi-section{
-    background-color: #181818;
+    background-color: #1e1e1e;
     padding: 2px;
 }
 
@@ -187,14 +188,19 @@ th{
     padding: .5rem;
     margin: .2rem;  
     border: none; 
+    background-color: #3b3a3a;
+}
+.op{
+    color:rgb(98, 96, 96) ;
 }
 .bmi-button{
     margin-top: 1rem;
 }
 /* meet our team */
 .meet-our-team{
+   
     width: 80%;
-    margin: 0rem auto;
+    margin: 3rem auto;
     text-align: center;
 }
 .row-1, .row-2{
@@ -226,6 +232,11 @@ th{
     grid-template-columns: 50% 50%;
 
 }
+li {
+    font-size: 1rem;
+    color: #5b5b5b;
+
+}
 
 .footer-get-started > ul {
     list-style: none;
@@ -237,8 +248,8 @@ th{
     
    
 } */
-.footer-get-started > ul>li{
-    padding-bottom: 1rem;
+.footer-get-started > p{
+    padding-bottom: 1rem;  
     
 }
 
@@ -247,6 +258,13 @@ footer> hr {
     width: 100%;
     
 }
+.horixontalLine{
+    border: 0;
+    height: 1px;
+    background-color: #5b5b5b;
+}
+
 .end{
+    margin-top: 1rem;
     text-align: center;
 }
