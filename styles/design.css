@@ -14,6 +14,7 @@
   }
 body{
     background-color: #000000 ;
+    
 }
 
 * {
@@ -43,6 +44,7 @@ body{
     border: none;
     height: 2rem;
     width: 10rem;
+    
    
     
 }
@@ -126,40 +128,50 @@ body{
     
 }
 
-/* .run-title{
-    width: 100%;
-} */
-/* bmi section */
-
 .bmi-section{
-    display: grid;
-   grid-template-columns: 50% 50%;
-    /* gap: 4rem; */
+    background-color: #181818;
+    padding: 2px;
 }
 
-.chart{
+
+.bmi-con{
     display: grid;
     grid-template-columns: 50% 50%;
-    border: 2px solid #222222;
-    padding-top: 2rem;
-    padding-right: 5rem;
-}
-.chart1{
-    border: 2px solid #222222;
-    border
+    justify-content: space-between;
+    backdrop-filter: blur(1000px);
 
 }
-.chart2{
-    border-top: 2px solid #222222;
-    border-right:2px solid #222222 ;
-    border-bottom: 2px solid #222222;
+/* .bmi-chart{
+    width: 80%; 
+} */
+.table{
+        width: 30%; 
+        border-collapse: collapse;
+        margin-top: 30px;
+} 
+
+th,td {
+    border: 1px solid rgb(50, 50, 50);
+    padding-top:.5rem ;
+    padding-bottom:.5rem ;
+    padding-left: .5rem;
+    padding-right: 2px;
+    text-align: left;
+    font-size: 8px;
+    /* width: .5rem 2rem; */
+
 }
-.chart-item{
-    border-bottom:  2px solid #222222;
+/* #lastdata{
+    padding-right: rem;
+} */
+th{
+    padding: .5rem;
+    font-size: 14px;
+    font-weight: 400;
 }
-.char-item-l{
-    border: none;
-}
+
+
+
 .form{
     display: grid;
     grid-template-columns:50% 50% ;
